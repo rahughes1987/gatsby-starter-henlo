@@ -10,9 +10,8 @@ CMS.init({
     display_url: 'http://localhost:8000',
     backend: {
       // name: 'git-gateway',
-      repo: 'https://github.com/rahughes1987/whitemouse',
-      api_root: 'https://api.github.com',
-      auth_endpoint: 'auth',
+      name: 'github',
+      repo: 'rahughes1987/whitemouse',
       cms_label_prefix: 'netlify-cms/',
       branch: 'master',
     },
