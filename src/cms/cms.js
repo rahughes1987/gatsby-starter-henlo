@@ -15,6 +15,7 @@ CMS.init({
       api_root: 'https://api.github.com',
       auth_endpoint: 'auth',
       cms_label_prefix: 'netlify-cms/',
+      base_url: 'https://api.github.com/',
       commit_messages: {
         create: 'Create {{collection}} “{{slug}}”',
         update: 'Update {{collection}} “{{slug}}”',
